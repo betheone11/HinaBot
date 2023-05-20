@@ -78,7 +78,7 @@ class HnHttpApi(cqHttpApi):
         #     logging.error(err)
         #     print('sql出错了！')
 
-    def get_message(self, message: Message, key: str, class_: str) -> Optional[list[dict[str, Any]]]:
+    def get_message(self, message: Message, class_: str, key: str) -> Optional[list[dict[str, Any]]]:
         """
         获取信息
         """
@@ -87,7 +87,7 @@ class HnHttpApi(cqHttpApi):
                 sql_cursor = sql_link.cursor()
                 data_cursor = sql_cursor.execute("""
                 SELECT * FROM %s WHERE Key = '%s'
-                """ % (key, class_))
+                """ % (class_, key))
             data_list = data_cursor.fetchall()
             return data_list
 
@@ -114,7 +114,7 @@ class HnHttpApi(cqHttpApi):
             logging.error(err)
         return None
 
-    def remove_message(self, message: Message, class_: str, key: str) -> None:
+    def remove_message(self, message: Message, class_: str, key: str) -> bool:
         """
         删除指定表内信息
         """
@@ -125,8 +125,11 @@ class HnHttpApi(cqHttpApi):
                     data_list = sql_cursor.execute("SELECT * FROM %s WHERE Key = '%s'" % (class_, key))
                     for data in data_list:
                         sql_cursor.execute("DELETE from %s WHERE ID = '%s'" % (class_, data[0]))
+                    sql_link.commit()
+                return True
             except Exception as err:
                 self.recordMessageCKError(err)
+                return False
 
     def _thinking_twice(self, message: Message) -> bool:
         """
@@ -134,13 +137,22 @@ class HnHttpApi(cqHttpApi):
         """
         try:
             message.reply('是否删除信息？（Y/N）')
-            data = cqHttpApi().reply(message.sender.id, 20)
+            data = self.reply(message.sender.id, 20)
+            print(data.message)
+            print(data.message.lower())
             if data.message.lower() == 'y':
                 return True
             return False
         except Exception as err:
             logging.error(err)
             return False
+
+    def command_data_ck(self, command_data: str) -> list[str]:
+        """
+        去除命令中多余的空格
+        """
+        cked_data = [i for i in command_data if i != '']
+        return cked_data
 
 
 class HinaBot(cqBot):
