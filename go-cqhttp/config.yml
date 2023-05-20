@@ -1,0 +1,81 @@
+﻿# go-cqhttp 详细配置见 go-cqhttp 文档 https://docs.go-cqhttp.org/guide/config
+account:
+    uin: 1330141479
+    password: 'Qqbot147325853'
+    encrypt: false
+    status: 0
+    relogin:
+        delay: 3
+        interval: 3
+        max-times: 0
+    use-sso-address: true
+    allow-temp-session: true
+
+heartbeat:
+    interval: 40
+
+message:
+    post-format: string
+    ignore-invalid-cqcode: false
+    force-fragment: false
+    fix-url: false
+    proxy-rewrite: ''
+    report-self-message: false
+    remove-reply-at: false
+    extra-reply-data: false
+    skip-mime-scan: false
+
+output:
+    log-level: trace
+    log-aging: 15
+    log-force-new: true
+    log-colorful: true
+    debug: false
+
+default-middlewares: &default
+    access-token: ''
+    filter: ''
+    rate-limit:
+        enabled: false 
+        frequency: 1
+        bucket: 1
+
+database:
+    leveldb:
+        enable: true
+
+    cache:
+        image: data/image.db
+        video: data/video.db
+
+servers:
+  - http: # HTTP 通信设置
+      address: 127.0.0.1:5700 # HTTP监听地址
+      timeout: 5      # 反向 HTTP 超时时间, 单位秒，<5 时将被忽略
+      long-polling:   # 长轮询拓展
+        enabled: false       # 是否开启
+        max-queue-size: 2000 # 消息队列大小，0 表示不限制队列大小，谨慎使用
+      middlewares:
+        <<: *default # 引用默认中间件
+      post:           # 反向HTTP POST地址列表
+      #- url: ''                # 地址
+      #  secret: ''             # 密钥
+      #  max-retries: 3         # 最大重试，0 时禁用
+      #  retries-interval: 1500 # 重试时间，单位毫秒，0 时立即
+      #- url: http://127.0.0.1:5701/ # 地址
+      #  secret: ''                  # 密钥
+      #  max-retries: 10             # 最大重试，0 时禁用
+      #  retries-interval: 1000      # 重试时间，单位毫秒，0 时立即
+
+  # LambdaServer 配置
+  # - lambda:
+  #    type: scf # scf: 腾讯云函数 aws: aws Lambda
+  #    middlewares:
+  #      <<: *default # 引用默认中间件
+
+  # 正向WS设置
+  - ws:
+      # 正向WS服务器监听地址
+      address: 127.0.0.1:8000
+      middlewares:
+        <<: *default # 引用默认中间件

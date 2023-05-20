@@ -1,0 +1,244 @@
+[0m[2023-04-12 22:59:36,035][MainThread/DEBUG] PyCqBot: Using proactor: IocpProactor[0m
+[0m[2023-04-12 22:59:36,115][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ ÕËºÅÃÜÂëÎ´ÅäÖÃ, ½«Ê¹ÓÃ¶þÎ¬ÂëµÇÂ¼.[0m
+[0m[2023-04-12 22:59:36,115][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ ÐéÄâÉè±¸ÐÅÏ¢²»´æÔÚ, ½«×Ô¶¯Éú³ÉËæ»úÉè±¸.[0m
+[0m[2023-04-12 22:59:36,585][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ µ±Ç°Ð­Òé²»Ö§³Ö¶þÎ¬ÂëµÇÂ¼, ÇëÅäÖÃÕËºÅÃÜÂëµÇÂ¼.[0m
+[0m[2023-04-12 23:01:06,850][MainThread/DEBUG] PyCqBot: Using proactor: IocpProactor[0m
+[0m[2023-04-12 23:01:06,905][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ ÕËºÅÃÜÂëÎ´ÅäÖÃ, ½«Ê¹ÓÃ¶þÎ¬ÂëµÇÂ¼.[0m
+[0m[2023-04-12 23:01:07,358][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ µ±Ç°Ð­Òé²»Ö§³Ö¶þÎ¬ÂëµÇÂ¼, ÇëÅäÖÃÕËºÅÃÜÂëµÇÂ¼.[0m
+[0m[2023-04-12 23:14:53,015][MainThread/DEBUG] PyCqBot: Using proactor: IocpProactor[0m
+[0m[2023-04-12 23:15:21,748][MainThread/DEBUG] PyCqBot: Using proactor: IocpProactor[0m
+[0m[2023-04-12 23:15:21,803][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ ÕËºÅÃÜÂëÎ´ÅäÖÃ, ½«Ê¹ÓÃ¶þÎ¬ÂëµÇÂ¼.[0m
+[0m[2023-04-12 23:15:22,235][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ µ±Ç°Ð­Òé²»Ö§³Ö¶þÎ¬ÂëµÇÂ¼, ÇëÅäÖÃÕËºÅÃÜÂëµÇÂ¼.[0m
+[0m[2023-04-12 23:17:12,484][MainThread/DEBUG] PyCqBot: Using proactor: IocpProactor[0m
+[0m[2023-04-12 23:17:12,537][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ ÕËºÅÃÜÂëÎ´ÅäÖÃ, ½«Ê¹ÓÃ¶þÎ¬ÂëµÇÂ¼.[0m
+[0m[2023-04-12 23:17:12,736][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ µ±Ç°Ð­Òé²»Ö§³Ö¶þÎ¬ÂëµÇÂ¼, ÇëÅäÖÃÕËºÅÃÜÂëµÇÂ¼.[0m
+[0m[2023-04-12 23:20:41,615][MainThread/DEBUG] PyCqBot: Using proactor: IocpProactor[0m
+[0m[2023-04-12 23:20:41,670][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ ÕËºÅÃÜÂëÎ´ÅäÖÃ, ½«Ê¹ÓÃ¶þÎ¬ÂëµÇÂ¼.[0m
+[0m[2023-04-12 23:21:17,049][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ Protocol -> device lock is disable. http api may fail.[0m
+[0m[2023-04-12 23:21:18,480][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ HTTP ·þÎñÆ÷Ê¹ÓÃÁË¹ýÊ±µÄÅäÖÃ¸ñÊ½£¬Çë¸üÐÂÅäÖÃÎÄ¼þ£¡[0m
+[0m[2023-04-12 23:21:18,487][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ ÕýÏò Websocket Ê¹ÓÃÁË¹ýÊ±µÄÅäÖÃ¸ñÊ½£¬Çë¸üÐÂÅäÖÃÎÄ¼þ[0m
+[0m[2023-04-12 23:21:18,610][MainThread/DEBUG] PyCqBot: Using proactor: IocpProactor[0m
+[0m[2023-04-12 23:21:18,611][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-04-12 23:21:18,621][MainThread/DEBUG] PyCqBot: = connection is CONNECTING[0m
+[0m[2023-04-12 23:21:18,621][MainThread/DEBUG] PyCqBot: > GET / HTTP/1.1[0m
+[0m[2023-04-12 23:21:18,621][MainThread/DEBUG] PyCqBot: > Host: 127.0.0.1:5700[0m
+[0m[2023-04-12 23:21:18,621][MainThread/DEBUG] PyCqBot: > Upgrade: websocket[0m
+[0m[2023-04-12 23:21:18,621][MainThread/DEBUG] PyCqBot: > Connection: Upgrade[0m
+[0m[2023-04-12 23:21:18,621][MainThread/DEBUG] PyCqBot: > Sec-WebSocket-Key: ytMK41haPkKgFJJE0zs8dw==[0m
+[0m[2023-04-12 23:21:18,622][MainThread/DEBUG] PyCqBot: > Sec-WebSocket-Version: 13[0m
+[0m[2023-04-12 23:21:18,622][MainThread/DEBUG] PyCqBot: > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits[0m
+[0m[2023-04-12 23:21:18,622][MainThread/DEBUG] PyCqBot: > User-Agent: Python/3.10 websockets/10.4[0m
+[0m[2023-04-12 23:21:18,623][MainThread/DEBUG] PyCqBot: < HTTP/1.1 101 Switching Protocols[0m
+[0m[2023-04-12 23:21:18,623][MainThread/DEBUG] PyCqBot: < Upgrade: websocket[0m
+[0m[2023-04-12 23:21:18,624][MainThread/DEBUG] PyCqBot: < Connection: Upgrade[0m
+[0m[2023-04-12 23:21:18,624][MainThread/DEBUG] PyCqBot: < Sec-WebSocket-Accept: IEJIhqTlBd9pYeEGDqqVxkY2bNY=[0m
+[0m[2023-04-12 23:21:18,625][MainThread/DEBUG] PyCqBot: = connection is OPEN[0m
+[0m[2023-04-12 23:21:18,625][MainThread/DEBUG] PyCqBot: < TEXT '{"_post_method":2,"meta_event_type":"lifecycle"...ect","time":1681312878}' [133 bytes][0m
+[0m[2023-04-12 23:21:18,626][MainThread/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1330141479[0m
+[0m[2023-04-12 23:21:38,636][MainThread/DEBUG] PyCqBot: % sending keepalive ping[0m
+[0m[2023-04-12 23:21:38,636][MainThread/DEBUG] PyCqBot: > PING cf c8 4c 4a [binary, 4 bytes][0m
+[0m[2023-04-12 23:21:38,644][MainThread/DEBUG] PyCqBot: < PONG cf c8 4c 4a [binary, 4 bytes][0m
+[0m[2023-04-12 23:21:38,644][MainThread/DEBUG] PyCqBot: % received keepalive pong[0m
+[0m[2023-04-12 23:21:57,235][MainThread/DEBUG] PyCqBot: < TEXT '{"post_type":"notice","notice_type":"client_sta...ice_name":"Android"}}\n' [185 bytes][0m
+[0m[2023-04-12 23:21:58,489][MainThread/DEBUG] PyCqBot: < TEXT '{"post_type":"meta_event","meta_event_type":"he...0}},"interval":40000}\n' [387 bytes][0m
+[0m[2023-04-12 23:21:58,646][MainThread/DEBUG] PyCqBot: % sending keepalive ping[0m
+[0m[2023-04-12 23:21:58,646][MainThread/DEBUG] PyCqBot: > PING 01 9a 2f 2b [binary, 4 bytes][0m
+[0m[2023-04-12 23:21:58,648][MainThread/DEBUG] PyCqBot: < PONG 01 9a 2f 2b [binary, 4 bytes][0m
+[0m[2023-04-12 23:21:58,648][MainThread/DEBUG] PyCqBot: % received keepalive pong[0m
+[0m[2023-04-12 23:22:18,663][MainThread/DEBUG] PyCqBot: % sending keepalive ping[0m
+[0m[2023-04-12 23:22:18,663][MainThread/DEBUG] PyCqBot: > PING a6 54 2a 29 [binary, 4 bytes][0m
+[0m[2023-04-12 23:22:18,664][MainThread/DEBUG] PyCqBot: < PONG a6 54 2a 29 [binary, 4 bytes][0m
+[0m[2023-04-12 23:22:18,664][MainThread/DEBUG] PyCqBot: % received keepalive pong[0m
+[0m[2023-04-12 23:22:38,481][MainThread/DEBUG] PyCqBot: < TEXT '{"post_type":"meta_event","meta_event_type":"he...0}},"interval":40000}\n' [387 bytes][0m
+[0m[2023-04-12 23:22:38,659][MainThread/DEBUG] PyCqBot: < TEXT '{"post_type":"message","message_type":"group","...user_id":2822075626}}\n' [400 bytes][0m
+[0m[2023-04-12 23:22:38,660][MainThread/DEBUG] PyCqBot: % sending keepalive ping[0m
+[0m[2023-04-12 23:22:38,661][MainThread/DEBUG] PyCqBot: > PING 86 18 12 51 [binary, 4 bytes][0m
+[0m[2023-04-12 23:22:38,662][command/INFO] PyCqBot: ¼×ÑõÂÈÆÕ°· (qq=2822075626,ÈººÅ=679872429) Ê¹ÓÃÖ¸Áî: #help[0m
+[0m[2023-04-12 23:22:38,663][MainThread/DEBUG] PyCqBot: < PONG 86 18 12 51 [binary, 4 bytes][0m
+[0m[2023-04-12 23:22:38,665][MainThread/DEBUG] PyCqBot: % received keepalive pong[0m
+[0m[2023-04-12 23:22:39,190][asyncHttp_loop/DEBUG] PyCqBot: cqAPI ÏìÓ¦: {'data': {'message_id': 351739024}, 'message': '', 'retcode': 0, 'status': 'ok'}[0m
+[0m[2023-04-12 23:22:54,074][MainThread/DEBUG] PyCqBot: < TEXT '{"post_type":"message","message_type":"group","..."user_id":2822075626}\n' [403 bytes][0m
+[0m[2023-04-12 23:22:54,074][command/INFO] PyCqBot: ¼×ÑõÂÈÆÕ°· (qq=2822075626,ÈººÅ=679872429) Ê¹ÓÃÖ¸Áî: #status[0m
+[0m[2023-04-12 23:22:54,075][command/INFO] PyCqBot: ¼×ÑõÂÈÆÕ°· (qq=2822075626,ÈººÅ=679872429) È¨ÏÞ²»×ã... Ö¸Áî #status[0m
+[0m[2023-04-12 23:22:54,414][asyncHttp_loop/DEBUG] PyCqBot: cqAPI ÏìÓ¦: {'data': {'message_id': -212913769}, 'message': '', 'retcode': 0, 'status': 'ok'}[0m
+[0m[2023-04-12 23:22:58,676][MainThread/DEBUG] PyCqBot: % sending keepalive ping[0m
+[0m[2023-04-12 23:22:58,676][MainThread/DEBUG] PyCqBot: > PING fd 74 f4 a8 [binary, 4 bytes][0m
+[0m[2023-04-12 23:22:58,677][MainThread/DEBUG] PyCqBot: < PONG fd 74 f4 a8 [binary, 4 bytes][0m
+[0m[2023-04-12 23:22:58,677][MainThread/DEBUG] PyCqBot: % received keepalive pong[0m
+[0m[2023-04-12 23:23:05,167][MainThread/DEBUG] PyCqBot: = connection is CLOSING[0m
+[0m[2023-04-12 23:23:05,168][MainThread/DEBUG] PyCqBot: > CLOSE 1000 (OK) [2 bytes][0m
+[0m[2023-04-12 23:23:05,169][MainThread/DEBUG] PyCqBot: = connection is CLOSED[0m
+[0m[2023-04-13 09:41:54,481][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ Protocol -> device lock is disable. http api may fail.[0m
+[0m[2023-04-13 09:41:56,834][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ ÕýÏò Websocket Ê¹ÓÃÁË¹ýÊ±µÄÅäÖÃ¸ñÊ½£¬Çë¸üÐÂÅäÖÃÎÄ¼þ[0m
+[0m[2023-04-13 09:41:56,835][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ HTTP ·þÎñÆ÷Ê¹ÓÃÁË¹ýÊ±µÄÅäÖÃ¸ñÊ½£¬Çë¸üÐÂÅäÖÃÎÄ¼þ£¡[0m
+[0m[2023-04-13 09:41:56,959][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-04-13 09:41:56,976][MainThread/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1330141479[0m
+[0m[2023-04-13 09:42:21,812][command/INFO] PyCqBot: ¼×ÑõÂÈÆÕ°· (qq=2822075626,ÈººÅ=679872429) Ê¹ÓÃÖ¸Áî: #help[0m
+[0m[2023-04-13 09:42:37,175][command/INFO] PyCqBot: ¼×ÑõÂÈÆÕ°· (qq=2822075626,ÈººÅ=679872429) Ê¹ÓÃÖ¸Áî: #help[0m
+[0m[2023-04-13 09:42:45,898][command/INFO] PyCqBot: ¼×ÑõÂÈÆÕ°· (qq=2822075626,ÈººÅ=679872429) Ê¹ÓÃÖ¸Áî: #status[0m
+[0m[2023-04-13 09:42:45,898][command/INFO] PyCqBot: ¼×ÑõÂÈÆÕ°· (qq=2822075626,ÈººÅ=679872429) È¨ÏÞ²»×ã... Ö¸Áî #status[0m
+[0m[2023-04-13 09:43:01,442][MainThread/DEBUG] PyCqBot: Using proactor: IocpProactor[0m
+[0m[2023-04-13 09:43:02,092][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ Protocol -> device lock is disable. http api may fail.[0m
+[0m[2023-04-13 09:43:04,491][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ ÕýÏò Websocket Ê¹ÓÃÁË¹ýÊ±µÄÅäÖÃ¸ñÊ½£¬Çë¸üÐÂÅäÖÃÎÄ¼þ[0m
+[0m[2023-04-13 09:43:04,491][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ HTTP ·þÎñÆ÷Ê¹ÓÃÁË¹ýÊ±µÄÅäÖÃ¸ñÊ½£¬Çë¸üÐÂÅäÖÃÎÄ¼þ£¡[0m
+[0m[2023-04-13 09:43:04,986][MainThread/DEBUG] PyCqBot: Using proactor: IocpProactor[0m
+[0m[2023-04-13 09:43:04,987][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-04-13 09:43:04,997][MainThread/DEBUG] PyCqBot: = connection is CONNECTING[0m
+[0m[2023-04-13 09:43:04,997][MainThread/DEBUG] PyCqBot: > GET / HTTP/1.1[0m
+[0m[2023-04-13 09:43:04,997][MainThread/DEBUG] PyCqBot: > Host: 127.0.0.1:5700[0m
+[0m[2023-04-13 09:43:04,997][MainThread/DEBUG] PyCqBot: > Upgrade: websocket[0m
+[0m[2023-04-13 09:43:04,997][MainThread/DEBUG] PyCqBot: > Connection: Upgrade[0m
+[0m[2023-04-13 09:43:04,997][MainThread/DEBUG] PyCqBot: > Sec-WebSocket-Key: mK3cLQ5S7VMupmxtVcdYVw==[0m
+[0m[2023-04-13 09:43:04,997][MainThread/DEBUG] PyCqBot: > Sec-WebSocket-Version: 13[0m
+[0m[2023-04-13 09:43:04,998][MainThread/DEBUG] PyCqBot: > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits[0m
+[0m[2023-04-13 09:43:04,998][MainThread/DEBUG] PyCqBot: > User-Agent: Python/3.10 websockets/10.4[0m
+[0m[2023-04-13 09:43:04,999][MainThread/DEBUG] PyCqBot: < HTTP/1.1 101 Switching Protocols[0m
+[0m[2023-04-13 09:43:04,999][MainThread/DEBUG] PyCqBot: < Upgrade: websocket[0m
+[0m[2023-04-13 09:43:05,000][MainThread/DEBUG] PyCqBot: < Connection: Upgrade[0m
+[0m[2023-04-13 09:43:05,000][MainThread/DEBUG] PyCqBot: < Sec-WebSocket-Accept: Qj8xJbe/K2mLIbAoM1vHjxfceno=[0m
+[0m[2023-04-13 09:43:05,000][MainThread/DEBUG] PyCqBot: = connection is OPEN[0m
+[0m[2023-04-13 09:43:05,000][MainThread/DEBUG] PyCqBot: < TEXT '{"_post_method":2,"meta_event_type":"lifecycle"...ect","time":1681350184}' [133 bytes][0m
+[0m[2023-04-13 09:43:05,001][MainThread/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1330141479[0m
+[0m[2023-04-13 09:43:19,337][MainThread/DEBUG] PyCqBot: < TEXT '{"post_type":"message","message_type":"group","...essage_id":233582033}\n' [398 bytes][0m
+[0m[2023-04-13 09:43:19,339][command/INFO] PyCqBot: ¼×ÑõÂÈÆÕ°· (qq=2822075626,ÈººÅ=679872429) Ê¹ÓÃÖ¸Áî: #help[0m
+[0m[2023-04-13 09:43:19,862][asyncHttp_loop/DEBUG] PyCqBot: cqAPI ÏìÓ¦: {'data': {'message_id': 2062228807}, 'message': '', 'retcode': 0, 'status': 'ok'}[0m
+[0m[2023-04-13 09:43:25,015][MainThread/DEBUG] PyCqBot: % sending keepalive ping[0m
+[0m[2023-04-13 09:43:25,015][MainThread/DEBUG] PyCqBot: > PING a8 54 df 91 [binary, 4 bytes][0m
+[0m[2023-04-13 09:43:25,022][MainThread/DEBUG] PyCqBot: < PONG a8 54 df 91 [binary, 4 bytes][0m
+[0m[2023-04-13 09:43:25,022][MainThread/DEBUG] PyCqBot: % received keepalive pong[0m
+[0m[2023-04-13 09:43:33,031][MainThread/DEBUG] PyCqBot: = connection is CLOSING[0m
+[0m[2023-04-13 09:43:33,031][MainThread/DEBUG] PyCqBot: > CLOSE 1000 (OK) [2 bytes][0m
+[0m[2023-04-13 09:43:33,032][MainThread/DEBUG] PyCqBot: = connection is CLOSED[0m
+[0m[2023-04-13 09:47:25,108][MainThread/DEBUG] PyCqBot: Using proactor: IocpProactor[0m
+[0m[2023-04-13 09:47:25,743][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ Protocol -> device lock is disable. http api may fail.[0m
+[0m[2023-04-13 09:47:28,067][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ HTTP ·þÎñÆ÷Ê¹ÓÃÁË¹ýÊ±µÄÅäÖÃ¸ñÊ½£¬Çë¸üÐÂÅäÖÃÎÄ¼þ£¡[0m
+[0m[2023-04-13 09:47:28,067][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ ÕýÏò Websocket Ê¹ÓÃÁË¹ýÊ±µÄÅäÖÃ¸ñÊ½£¬Çë¸üÐÂÅäÖÃÎÄ¼þ[0m
+[0m[2023-04-13 09:47:28,173][MainThread/DEBUG] PyCqBot: Using proactor: IocpProactor[0m
+[0m[2023-04-13 09:47:28,174][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-04-13 09:47:28,185][MainThread/DEBUG] PyCqBot: = connection is CONNECTING[0m
+[0m[2023-04-13 09:47:28,185][MainThread/DEBUG] PyCqBot: > GET / HTTP/1.1[0m
+[0m[2023-04-13 09:47:28,185][MainThread/DEBUG] PyCqBot: > Host: 127.0.0.1:5700[0m
+[0m[2023-04-13 09:47:28,185][MainThread/DEBUG] PyCqBot: > Upgrade: websocket[0m
+[0m[2023-04-13 09:47:28,185][MainThread/DEBUG] PyCqBot: > Connection: Upgrade[0m
+[0m[2023-04-13 09:47:28,186][MainThread/DEBUG] PyCqBot: > Sec-WebSocket-Key: o1NzwYaPW8CvHiJjWXC1Zg==[0m
+[0m[2023-04-13 09:47:28,186][MainThread/DEBUG] PyCqBot: > Sec-WebSocket-Version: 13[0m
+[0m[2023-04-13 09:47:28,186][MainThread/DEBUG] PyCqBot: > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits[0m
+[0m[2023-04-13 09:47:28,186][MainThread/DEBUG] PyCqBot: > User-Agent: Python/3.10 websockets/10.4[0m
+[0m[2023-04-13 09:47:28,188][MainThread/DEBUG] PyCqBot: < HTTP/1.1 101 Switching Protocols[0m
+[0m[2023-04-13 09:47:28,188][MainThread/DEBUG] PyCqBot: < Upgrade: websocket[0m
+[0m[2023-04-13 09:47:28,188][MainThread/DEBUG] PyCqBot: < Connection: Upgrade[0m
+[0m[2023-04-13 09:47:28,188][MainThread/DEBUG] PyCqBot: < Sec-WebSocket-Accept: u2MKqdl0Zqeh1dACzTc+bNddk48=[0m
+[0m[2023-04-13 09:47:28,188][MainThread/DEBUG] PyCqBot: = connection is OPEN[0m
+[0m[2023-04-13 09:47:28,189][MainThread/DEBUG] PyCqBot: < TEXT '{"_post_method":2,"meta_event_type":"lifecycle"...ect","time":1681350448}' [133 bytes][0m
+[0m[2023-04-13 09:47:28,189][MainThread/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1330141479[0m
+[0m[2023-04-13 09:47:48,201][MainThread/DEBUG] PyCqBot: % sending keepalive ping[0m
+[0m[2023-04-13 09:47:48,201][MainThread/DEBUG] PyCqBot: > PING 48 fc 98 f8 [binary, 4 bytes][0m
+[0m[2023-04-13 09:47:48,202][MainThread/DEBUG] PyCqBot: < PONG 48 fc 98 f8 [binary, 4 bytes][0m
+[0m[2023-04-13 09:47:48,202][MainThread/DEBUG] PyCqBot: % received keepalive pong[0m
+[0m[2023-04-13 09:47:55,973][MainThread/DEBUG] PyCqBot: < TEXT '{"post_type":"message","message_type":"group","..."user_id":2822075626}\n' [399 bytes][0m
+[0m[2023-04-13 09:47:55,974][command/INFO] PyCqBot: ¼×ÑõÂÈÆÕ°· (qq=2822075626,ÈººÅ=679872429) Ê¹ÓÃÖ¸Áî: #help[0m
+[0m[2023-04-13 09:47:56,509][asyncHttp_loop/DEBUG] PyCqBot: cqAPI ÏìÓ¦: {'data': {'message_id': -1655492544}, 'message': '', 'retcode': 0, 'status': 'ok'}[0m
+[0m[2023-04-13 09:48:08,077][MainThread/DEBUG] PyCqBot: < TEXT '{"post_type":"meta_event","meta_event_type":"he...5}},"interval":40000}\n' [396 bytes][0m
+[0m[2023-04-13 09:48:08,204][MainThread/DEBUG] PyCqBot: % sending keepalive ping[0m
+[0m[2023-04-13 09:48:08,204][MainThread/DEBUG] PyCqBot: > PING be d4 a6 08 [binary, 4 bytes][0m
+[0m[2023-04-13 09:48:08,205][MainThread/DEBUG] PyCqBot: < PONG be d4 a6 08 [binary, 4 bytes][0m
+[0m[2023-04-13 09:48:08,205][MainThread/DEBUG] PyCqBot: % received keepalive pong[0m
+[0m[2023-04-13 09:48:19,672][MainThread/DEBUG] PyCqBot: < TEXT '{"post_type":"message","message_type":"group","..."user_id":2822075626}\n' [426 bytes][0m
+[0m[2023-04-13 09:48:19,672][command/INFO] PyCqBot: ¼×ÑõÂÈÆÕ°· (qq=2822075626,ÈººÅ=679872429) Ê¹ÓÃÖ¸Áî: #echo ´ó¼ÒºÃ°¡[0m
+[0m[2023-04-13 09:48:20,169][asyncHttp_loop/DEBUG] PyCqBot: cqAPI ÏìÓ¦: {'data': {'message_id': -590795083}, 'message': '', 'retcode': 0, 'status': 'ok'}[0m
+[0m[2023-04-13 09:48:28,216][MainThread/DEBUG] PyCqBot: % sending keepalive ping[0m
+[0m[2023-04-13 09:48:28,216][MainThread/DEBUG] PyCqBot: > PING 8c de 11 c1 [binary, 4 bytes][0m
+[0m[2023-04-13 09:48:28,217][MainThread/DEBUG] PyCqBot: < PONG 8c de 11 c1 [binary, 4 bytes][0m
+[0m[2023-04-13 09:48:28,217][MainThread/DEBUG] PyCqBot: % received keepalive pong[0m
+[0m[2023-04-13 09:48:33,707][MainThread/DEBUG] PyCqBot: < TEXT '{"post_type":"message","message_type":"group","...ssage_id":1170243343}\n' [419 bytes][0m
+[0m[2023-04-13 09:48:33,708][command/INFO] PyCqBot: ¼×ÑõÂÈÆÕ°· (qq=2822075626,ÈººÅ=679872429) Ê¹ÓÃÖ¸Áî: #echo hahahahah[0m
+[0m[2023-04-13 09:48:34,068][asyncHttp_loop/DEBUG] PyCqBot: cqAPI ÏìÓ¦: {'data': {'message_id': 851922841}, 'message': '', 'retcode': 0, 'status': 'ok'}[0m
+[0m[2023-04-13 09:48:48,073][MainThread/DEBUG] PyCqBot: < TEXT '{"post_type":"meta_event","meta_event_type":"he...3}},"interval":40000}\n' [396 bytes][0m
+[0m[2023-04-13 09:48:48,245][MainThread/DEBUG] PyCqBot: % sending keepalive ping[0m
+[0m[2023-04-13 09:48:48,245][MainThread/DEBUG] PyCqBot: > PING c5 e1 54 69 [binary, 4 bytes][0m
+[0m[2023-04-13 09:48:48,246][MainThread/DEBUG] PyCqBot: < PONG c5 e1 54 69 [binary, 4 bytes][0m
+[0m[2023-04-13 09:48:48,246][MainThread/DEBUG] PyCqBot: % received keepalive pong[0m
+[0m[2023-04-13 09:49:08,257][MainThread/DEBUG] PyCqBot: % sending keepalive ping[0m
+[0m[2023-04-13 09:49:08,257][MainThread/DEBUG] PyCqBot: > PING 7d 1a 34 f1 [binary, 4 bytes][0m
+[0m[2023-04-13 09:49:08,259][MainThread/DEBUG] PyCqBot: < PONG 7d 1a 34 f1 [binary, 4 bytes][0m
+[0m[2023-04-13 09:49:08,259][MainThread/DEBUG] PyCqBot: % received keepalive pong[0m
+[0m[2023-04-13 09:49:28,078][MainThread/DEBUG] PyCqBot: < TEXT '{"post_type":"meta_event","meta_event_type":"he...3}},"interval":40000}\n' [396 bytes][0m
+[0m[2023-04-13 09:49:28,265][MainThread/DEBUG] PyCqBot: % sending keepalive ping[0m
+[0m[2023-04-13 09:49:28,265][MainThread/DEBUG] PyCqBot: > PING e5 94 d1 eb [binary, 4 bytes][0m
+[0m[2023-04-13 09:49:28,266][MainThread/DEBUG] PyCqBot: < PONG e5 94 d1 eb [binary, 4 bytes][0m
+[0m[2023-04-13 09:49:28,266][MainThread/DEBUG] PyCqBot: % received keepalive pong[0m
+[0m[2023-04-13 09:49:38,026][MainThread/DEBUG] PyCqBot: = connection is CLOSING[0m
+[0m[2023-04-13 09:49:38,026][MainThread/DEBUG] PyCqBot: > CLOSE 1000 (OK) [2 bytes][0m
+[0m[2023-04-13 09:49:38,027][MainThread/DEBUG] PyCqBot: = connection is CLOSED[0m
+[0m[2023-04-13 09:49:41,079][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ Protocol -> device lock is disable. http api may fail.[0m
+[0m[2023-04-13 09:49:43,519][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ HTTP ·þÎñÆ÷Ê¹ÓÃÁË¹ýÊ±µÄÅäÖÃ¸ñÊ½£¬Çë¸üÐÂÅäÖÃÎÄ¼þ£¡[0m
+[0m[2023-04-13 09:49:43,520][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ ÕýÏò Websocket Ê¹ÓÃÁË¹ýÊ±µÄÅäÖÃ¸ñÊ½£¬Çë¸üÐÂÅäÖÃÎÄ¼þ[0m
+[0m[2023-04-13 09:49:43,910][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-04-13 09:49:43,923][MainThread/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1330141479[0m
+[0m[2023-04-13 09:49:52,690][command/INFO] PyCqBot: ¼×ÑõÂÈÆÕ°· (qq=2822075626,ÈººÅ=679872429) Ê¹ÓÃÖ¸Áî: #echo helo world![0m
+[0m[2023-04-13 09:53:03,032][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ Protocol -> device lock is disable. http api may fail.[0m
+[0m[2023-04-13 09:53:05,300][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ ÕýÏò Websocket Ê¹ÓÃÁË¹ýÊ±µÄÅäÖÃ¸ñÊ½£¬Çë¸üÐÂÅäÖÃÎÄ¼þ[0m
+[0m[2023-04-13 09:53:05,300][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ HTTP ·þÎñÆ÷Ê¹ÓÃÁË¹ýÊ±µÄÅäÖÃ¸ñÊ½£¬Çë¸üÐÂÅäÖÃÎÄ¼þ£¡[0m
+[0m[2023-04-13 09:53:05,467][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-04-13 09:53:05,479][MainThread/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1330141479[0m
+[0m[2023-04-13 09:53:14,639][command/INFO] PyCqBot: ¼×ÑõÂÈÆÕ°· (qq=2822075626) Ê¹ÓÃÖ¸Áî: #echo hello world[0m
+[0m[2023-04-13 09:59:39,527][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ Protocol -> device lock is disable. http api may fail.[0m
+[0m[2023-04-13 09:59:41,886][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ ÕýÏò Websocket Ê¹ÓÃÁË¹ýÊ±µÄÅäÖÃ¸ñÊ½£¬Çë¸üÐÂÅäÖÃÎÄ¼þ[0m
+[0m[2023-04-13 09:59:41,887][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ HTTP ·þÎñÆ÷Ê¹ÓÃÁË¹ýÊ±µÄÅäÖÃ¸ñÊ½£¬Çë¸üÐÂÅäÖÃÎÄ¼þ£¡[0m
+[0m[2023-04-13 09:59:41,915][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-04-13 09:59:41,927][MainThread/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1330141479[0m
+[0m[2023-04-13 09:59:48,705][command/INFO] PyCqBot: ¼×ÑõÂÈÆÕ°· (qq=2822075626) Ê¹ÓÃÖ¸Áî: #help[0m
+[0m[2023-04-13 09:59:55,471][command/INFO] PyCqBot: ¼×ÑõÂÈÆÕ°· (qq=2822075626,ÈººÅ=679872429) Ê¹ÓÃÖ¸Áî: #help[0m
+[0m[2023-04-13 10:00:00,923][command/INFO] PyCqBot: ¼×ÑõÂÈÆÕ°· (qq=2822075626,ÈººÅ=679872429) Ê¹ÓÃÖ¸Áî: #code[0m
+[0m[2023-04-13 10:00:07,436][command/INFO] PyCqBot: ¼×ÑõÂÈÆÕ°· (qq=2822075626,ÈººÅ=679872429) Ê¹ÓÃÖ¸Áî: #code nihao[0m
+[0m[2023-04-13 10:00:20,462][command/INFO] PyCqBot: ¼×ÑõÂÈÆÕ°· (qq=2822075626,ÈººÅ=679872429) Ê¹ÓÃÖ¸Áî: #code #help[0m
+[0m[2023-04-13 10:01:54,080][command/INFO] PyCqBot: ¼×ÑõÂÈÆÕ°· (qq=2822075626,ÈººÅ=679872429) Ê¹ÓÃÖ¸Áî: #code Í¼Æ¬[0m
+[0m[2023-04-13 10:05:49,241][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ Protocol -> device lock is disable. http api may fail.[0m
+[0m[2023-04-13 10:05:51,611][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ ÕýÏò Websocket Ê¹ÓÃÁË¹ýÊ±µÄÅäÖÃ¸ñÊ½£¬Çë¸üÐÂÅäÖÃÎÄ¼þ[0m
+[0m[2023-04-13 10:05:51,612][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ HTTP ·þÎñÆ÷Ê¹ÓÃÁË¹ýÊ±µÄÅäÖÃ¸ñÊ½£¬Çë¸üÐÂÅäÖÃÎÄ¼þ£¡[0m
+[0m[2023-04-13 10:05:51,625][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-04-13 10:05:51,635][MainThread/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1330141479[0m
+[0m[2023-04-13 10:05:55,593][command/INFO] PyCqBot: ¼×ÑõÂÈÆÕ°· (qq=2822075626,ÈººÅ=679872429) Ê¹ÓÃÖ¸Áî: #show[0m
+[0m[2023-04-13 10:05:55,593][command/INFO] PyCqBot: Ö¸Áî #show ÔËÐÐÊ±´íÎó... Error: not all arguments converted during string formatting[0m
+[0m[2023-04-13 10:05:55,594][command/ERROR] PyCqBot: not all arguments converted during string formatting[0m
+Traceback (most recent call last):
+  File "E:\python310\lib\site-packages\pycqBot\cqApi.py", line 853, in run_command
+    self._commandList[command]["function"](commandData, message)
+  File "E:\python project\MyItem\QQBot\test.py", line 22, in show
+    message.reply('Ò»ÕÅÍ¼Æ¬ $s' % image("head.jpg",
+TypeError: not all arguments converted during string formatting
+[0m[2023-04-13 10:08:37,785][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ Protocol -> device lock is disable. http api may fail.[0m
+[0m[2023-04-13 10:08:40,102][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ ÕýÏò Websocket Ê¹ÓÃÁË¹ýÊ±µÄÅäÖÃ¸ñÊ½£¬Çë¸üÐÂÅäÖÃÎÄ¼þ[0m
+[0m[2023-04-13 10:08:40,103][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ HTTP ·þÎñÆ÷Ê¹ÓÃÁË¹ýÊ±µÄÅäÖÃ¸ñÊ½£¬Çë¸üÐÂÅäÖÃÎÄ¼þ£¡[0m
+[0m[2023-04-13 10:08:40,134][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-04-13 10:08:40,146][MainThread/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1330141479[0m
+[0m[2023-04-13 10:08:45,892][command/INFO] PyCqBot: ¼×ÑõÂÈÆÕ°· (qq=2822075626,ÈººÅ=679872429) Ê¹ÓÃÖ¸Áî: #show[0m
+[0m[2023-04-13 10:14:06,078][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ Protocol -> device lock is disable. http api may fail.[0m
+[0m[2023-04-13 10:14:08,433][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ HTTP ·þÎñÆ÷Ê¹ÓÃÁË¹ýÊ±µÄÅäÖÃ¸ñÊ½£¬Çë¸üÐÂÅäÖÃÎÄ¼þ£¡[0m
+[0m[2023-04-13 10:14:08,434][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ ÕýÏò Websocket Ê¹ÓÃÁË¹ýÊ±µÄÅäÖÃ¸ñÊ½£¬Çë¸üÐÂÅäÖÃÎÄ¼þ[0m
+[0m[2023-04-13 10:14:08,487][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-04-13 10:14:08,501][MainThread/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1330141479[0m
+[0m[2023-04-13 10:14:12,310][command/INFO] PyCqBot: ¼×ÑõÂÈÆÕ°· (qq=2822075626,ÈººÅ=679872429) Ê¹ÓÃÖ¸Áî: #show[0m
+[0m[2023-04-13 10:14:18,705][command/INFO] PyCqBot: ¼×ÑõÂÈÆÕ°· (qq=2822075626,ÈººÅ=679872429) Ê¹ÓÃÖ¸Áî: #help[0m
+[0m[2023-04-13 10:14:34,968][command/INFO] PyCqBot: ¼×ÑõÂÈÆÕ°· (qq=2822075626,ÈººÅ=679872429) Ê¹ÓÃÖ¸Áî: #echo À´ÓñÁú[0m
+[0m[2023-04-13 10:14:47,118][command/INFO] PyCqBot: ¼×ÑõÂÈÆÕ°· (qq=2822075626,ÈººÅ=679872429) Ê¹ÓÃÖ¸Áî: #status[0m
+[0m[2023-04-13 10:14:47,118][command/INFO] PyCqBot: ¼×ÑõÂÈÆÕ°· (qq=2822075626,ÈººÅ=679872429) È¨ÏÞ²»×ã... Ö¸Áî #status[0m
+[0m[2023-04-13 10:21:13,884][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ Protocol -> device lock is disable. http api may fail.[0m
+[0m[2023-04-13 10:21:16,207][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ lambda ³õÊ¼»¯Ê§°Ü: Post "http:///runtime/init/ready": http: no Host in request URL[0m
+[0m[2023-04-13 10:21:16,293][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-04-13 10:25:52,530][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ Protocol -> device lock is disable. http api may fail.[0m
+[0m[2023-04-13 10:25:54,908][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ lambda ³õÊ¼»¯Ê§°Ü: Post "http:///runtime/init/ready": http: no Host in request URL[0m
+[0m[2023-04-13 10:25:55,390][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-04-13 10:28:04,393][cqhttp_shell/ERROR] PyCqBot: go-cqhttp ·¢ÉúÖÂÃü´íÎó open cache image db failed: The process cannot access the file because it is being used by another process.[0m
+[0m[2023-04-13 10:29:47,896][cqhttp_shell/ERROR] PyCqBot: go-cqhttp ·¢ÉúÖÂÃü´íÎó open cache image db failed: The process cannot access the file because it is being used by another process.[0m
+[0m[2023-04-13 10:36:56,277][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ Protocol -> device lock is disable. http api may fail.[0m
+[0m[2023-04-13 10:36:58,630][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ lambda ³õÊ¼»¯Ê§°Ü: Post "http:///runtime/init/ready": http: no Host in request URL[0m
+[0m[2023-04-13 10:36:58,658][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-04-13 10:36:58,676][MainThread/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1330141479[0m
+[0m[2023-04-13 10:37:57,729][command/INFO] PyCqBot: ¼×ÑõÂÈÆÕ°· (qq=2822075626,ÈººÅ=679872429) Ê¹ÓÃÖ¸Áî: #help[0m
+[0m[2023-04-13 10:38:06,450][command/INFO] PyCqBot: ¼×ÑõÂÈÆÕ°· (qq=2822075626,ÈººÅ=679872429) Ê¹ÓÃÖ¸Áî: #code[0m
+[0m[2023-04-13 10:39:06,336][cqhttp_shell/WARNING] PyCqBot: go-cqhttp ¾¯¸æ Protocol -> device lock is disable. http api may fail.[0m
+[0m[2023-04-13 10:39:09,235][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-04-13 10:39:09,247][MainThread/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1330141479[0m
+[0m[2023-04-13 11:11:17,802][command/INFO] PyCqBot: ¼×ÑõÂÈÆÕ°· (qq=2822075626,ÈººÅ=679872429) Ê¹ÓÃÖ¸Áî: #help[0m
+[0m[2023-04-13 11:11:35,063][command/INFO] PyCqBot: ¼×ÑõÂÈÆÕ°· (qq=2822075626,ÈººÅ=679872429) Ê¹ÓÃÖ¸Áî: #show[0m

@@ -1,0 +1,1 @@
+class bot 里的 self.commandSign 变量 可以更改指令提示符

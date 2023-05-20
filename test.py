@@ -1,0 +1,1 @@
+from pycqBot import cqHttpApi, cqBot, cqLogfrom pycqBot.data import *cqLog()def atest(command_data, message: Message):    message.reply("你好!")    print(message.message)bot = cqHttpApi().create_bot(host='ws://127.0.0.1:8000')# 创建指令 "#test"bot.command(atest, "test")bot.start()

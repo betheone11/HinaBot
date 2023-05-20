@@ -1,0 +1,30 @@
+[0m[2023-05-08 10:24:25,012][go-cqhttp/WARNING] PyCqBot: go-cqhttp ¾¯¸æ Protocol -> device lock is disable. http api may fail.[0m
+[0m[2023-05-08 10:24:27,566][MainThread/INFO] PyCqBot: ÕıÔÚÁ¬½Ó go-cqhttp websocket ·şÎñ[0m
+[0m[2023-05-08 10:24:27,680][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·şÎñ! bot qq:1330141479[0m
+[0m[2023-05-08 10:26:42,537][command/INFO] PyCqBot: Ö¸Áî  ÔËĞĞÊ±´íÎó... Error: list index out of range[0m
+[0m[2023-05-08 10:26:42,538][command/ERROR] PyCqBot: list index out of range[0m
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycqBot\cqHttpApi.py", line 776, in run_command
+    commandIn = self._check_command(message)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycqBot\cqHttpApi.py", line 733, in _check_command
+    commandSign, command, commandData = self._set_command_key(message.message)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycqBot\cqHttpApi.py", line 718, in _set_command_key
+    commandSign = list(message)[0]
+IndexError: list index out of range
+[0m[2023-05-08 10:50:24,522][command/INFO] PyCqBot: Ö¸Áî  ÔËĞĞÊ±´íÎó... Error: list index out of range[0m
+[0m[2023-05-08 10:50:24,523][command/ERROR] PyCqBot: list index out of range[0m
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycqBot\cqHttpApi.py", line 776, in run_command
+    commandIn = self._check_command(message)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycqBot\cqHttpApi.py", line 733, in _check_command
+    commandSign, command, commandData = self._set_command_key(message.message)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycqBot\cqHttpApi.py", line 718, in _set_command_key
+    commandSign = list(message)[0]
+IndexError: list index out of range
+[0m[2023-05-08 10:55:11,553][command/INFO] PyCqBot: Ö¸Áî #a ²»´æÔÚ...[0m
+[0m[2023-05-08 11:29:59,331][go-cqhttp/WARNING] PyCqBot: go-cqhttp ¾¯¸æ Protocol -> device lock is disable. http api may fail.[0m
+[0m[2023-05-08 11:30:02,115][MainThread/INFO] PyCqBot: ÕıÔÚÁ¬½Ó go-cqhttp websocket ·şÎñ[0m
+[0m[2023-05-08 11:30:02,256][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·şÎñ! bot qq:1330141479[0m
+[0m[2023-05-08 11:30:16,937][command/INFO] PyCqBot: ¼×ÑõÂÈÆÕ°· (qq=2822075626,ÈººÅ=679872429) Ê¹ÓÃÖ¸Áî: #echo 1[0m
+[0m[2023-05-08 11:31:58,259][command/INFO] PyCqBot: Ö¸Áî # echo ²»´æÔÚ...[0m
+[0m[2023-05-08 11:32:04,748][command/INFO] PyCqBot: ¼×ÑõÂÈÆÕ°· (qq=2822075626,ÈººÅ=679872429) Ê¹ÓÃÖ¸Áî: #echo[0m

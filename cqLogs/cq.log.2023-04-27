@@ -1,0 +1,71 @@
+[0m[2023-04-27 11:42:08,522][go-cqhttp/WARNING] PyCqBot: go-cqhttp ¾¯¸æ Protocol -> device lock is disable. http api may fail.[0m
+[0m[2023-04-27 11:42:10,897][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-04-27 11:42:10,993][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1330141479[0m
+[0m[2023-04-27 11:42:20,037][command/INFO] PyCqBot: ¼×ÑõÂÈÆÕ°· (qq=2822075626,ÈººÅ=679872429) Ê¹ÓÃÖ¸Áî: #save[0m
+[0m[2023-04-27 11:42:26,501][command/INFO] PyCqBot: ¼×ÑõÂÈÆÕ°· (qq=2822075626,ÈººÅ=679872429) Ê¹ÓÃÖ¸Áî: #search[0m
+[0m[2023-04-27 11:43:23,887][command/INFO] PyCqBot: Ö¸Áî  ÔËÐÐÊ±´íÎó... Error: list index out of range[0m
+[0m[2023-04-27 11:43:23,889][command/ERROR] PyCqBot: list index out of range[0m
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycqBot\cqHttpApi.py", line 776, in run_command
+    commandIn = self._check_command(message)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycqBot\cqHttpApi.py", line 733, in _check_command
+    commandSign, command, commandData = self._set_command_key(message.message)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycqBot\cqHttpApi.py", line 718, in _set_command_key
+    commandSign = list(message)[0]
+IndexError: list index out of range
+[0m[2023-04-27 11:44:35,456][command/INFO] PyCqBot: Ö¸Áî  ÔËÐÐÊ±´íÎó... Error: list index out of range[0m
+[0m[2023-04-27 11:44:35,459][command/ERROR] PyCqBot: list index out of range[0m
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycqBot\cqHttpApi.py", line 776, in run_command
+    commandIn = self._check_command(message)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycqBot\cqHttpApi.py", line 733, in _check_command
+    commandSign, command, commandData = self._set_command_key(message.message)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycqBot\cqHttpApi.py", line 718, in _set_command_key
+    commandSign = list(message)[0]
+IndexError: list index out of range
+[0m[2023-04-27 11:45:00,904][command/INFO] PyCqBot: Ö¸Áî  ÔËÐÐÊ±´íÎó... Error: list index out of range[0m
+[0m[2023-04-27 11:45:00,906][command/ERROR] PyCqBot: list index out of range[0m
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycqBot\cqHttpApi.py", line 776, in run_command
+    commandIn = self._check_command(message)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycqBot\cqHttpApi.py", line 733, in _check_command
+    commandSign, command, commandData = self._set_command_key(message.message)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycqBot\cqHttpApi.py", line 718, in _set_command_key
+    commandSign = list(message)[0]
+IndexError: list index out of range
+[0m[2023-04-27 11:45:47,876][go-cqhttp/WARNING] PyCqBot: go-cqhttp ¾¯¸æ Protocol -> device lock is disable. http api may fail.[0m
+[0m[2023-04-27 11:45:50,135][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-04-27 11:45:50,398][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1330141479[0m
+[0m[2023-04-27 11:45:56,059][command/INFO] PyCqBot: Ö¸Áî  ÔËÐÐÊ±´íÎó... Error: list index out of range[0m
+[0m[2023-04-27 11:45:56,068][command/ERROR] PyCqBot: list index out of range[0m
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycqBot\cqHttpApi.py", line 776, in run_command
+    commandIn = self._check_command(message)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycqBot\cqHttpApi.py", line 733, in _check_command
+    commandSign, command, commandData = self._set_command_key(message.message)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycqBot\cqHttpApi.py", line 718, in _set_command_key
+    commandSign = list(message)[0]
+IndexError: list index out of range
+[0m[2023-04-27 11:48:45,705][go-cqhttp/WARNING] PyCqBot: go-cqhttp ¾¯¸æ Protocol -> device lock is disable. http api may fail.[0m
+[0m[2023-04-27 11:48:48,418][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-04-27 11:48:49,174][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1330141479[0m
+[0m[2023-04-27 11:48:49,511][command/INFO] PyCqBot: Ö¸Áî  ÔËÐÐÊ±´íÎó... Error: list index out of range[0m
+[0m[2023-04-27 11:48:49,518][command/ERROR] PyCqBot: list index out of range[0m
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycqBot\cqHttpApi.py", line 776, in run_command
+    commandIn = self._check_command(message)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycqBot\cqHttpApi.py", line 733, in _check_command
+    commandSign, command, commandData = self._set_command_key(message.message)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycqBot\cqHttpApi.py", line 718, in _set_command_key
+    commandSign = list(message)[0]
+IndexError: list index out of range
+[0m[2023-04-27 11:59:09,894][command/INFO] PyCqBot: Ö¸Áî  ÔËÐÐÊ±´íÎó... Error: list index out of range[0m
+[0m[2023-04-27 11:59:09,896][command/ERROR] PyCqBot: list index out of range[0m
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycqBot\cqHttpApi.py", line 776, in run_command
+    commandIn = self._check_command(message)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycqBot\cqHttpApi.py", line 733, in _check_command
+    commandSign, command, commandData = self._set_command_key(message.message)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pycqBot\cqHttpApi.py", line 718, in _set_command_key
+    commandSign = list(message)[0]
+IndexError: list index out of range
