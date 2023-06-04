@@ -69,6 +69,7 @@ bot.start()
 # -*- coding:utf-8 -*-
 from pycqBot.cqHttpApi import cqHttpApi, cqLog
 from pycqBot.data.message import Message
+from pycqBot.cqCode import image
 import logging
 
 
@@ -108,6 +109,11 @@ def search(command_data, message: Message) -> None:
     message.reply(message_data)
 
 
+def atest(command_data, message: Message) -> None:
+    img = image('file:///D:\\HinaBot\\asset\\党性.png')
+    message.reply_not_code('%s' % img)
+
+
 if __name__ == '__main__':
     cqapi = cqHttpApi()
     bot = cqapi.create_bot(host='ws://127.0.0.1:8000', options={
@@ -122,7 +128,9 @@ if __name__ == '__main__':
     }).command(search, 'search', {
         'help': ['查询信息！'],
         'type': 'all',
+    }).command(atest, '我的党性强不强', {
+        'help': ['这是一条测试命令'],
+        'type': 'all'
     })
     cqLog()
     bot.start(start_go_cqhttp=True, go_cqhttp_path='go-cqhttp')
-

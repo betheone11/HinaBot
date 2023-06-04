@@ -176,6 +176,54 @@ class HinaBot(cqBot):
                 exec("self.%s = '%s'" % (key, options[key]))
             else:
                 exec("self.%s = %s" % (key, options[key]))
+        """
+        内置指令 help
+            显示帮助信息
+        """
+
+        def print_help(_, message: Message):
+            message.reply(self.get_command_help_text())
+
+        self.command(print_help, "help", {
+            "type": "all",
+            "help": [
+                self.commandSign + "help - 显示本条帮助信息",
+            ]
+        })
+
+        """
+        内置指令 status
+            查看 go-cqhttp 状态
+        """
+
+        def status(_, message: Message):
+            if self._go_cqhttp_status == {}:
+                self.cqapi.send_reply(message, "go-cqhttp 心跳未被正常配置，请检查")
+                logging.warning("go-cqhttp 心跳未被正常配置")
+                return
+
+            status_msg = "bot (qq=%s) 是否在线：%s\n收到数据包：%s\n发送数据包：%s\n丢失数据包：%s\n接受信息：%s\n发送信息：%s\nTCP 链接断开：%s\n账号掉线次数：%s\n最后消息时间：%s" % (
+                self.__bot_qq,
+                self._go_cqhttp_status["online"],
+                self._go_cqhttp_status["stat"]["packet_received"],
+                self._go_cqhttp_status["stat"]["packet_sent"],
+                self._go_cqhttp_status["stat"]["packet_lost"],
+                self._go_cqhttp_status["stat"]["message_received"],
+                self._go_cqhttp_status["stat"]["message_sent"],
+                self._go_cqhttp_status["stat"]["disconnect_times"],
+                self._go_cqhttp_status["stat"]["lost_times"],
+                self._go_cqhttp_status["stat"]["last_message_time"],
+            )
+
+            message.reply(status_msg)
+
+        self.command(status, "status", {
+            "type": "all",
+            "admin": True,
+            "help": [
+                self.commandSign + "status - 获取 go-cqhttp 状态",
+            ]
+        })
 
     def meta_event_lifecycle_connect(self, event: Meta_Event):
         """
@@ -190,3 +238,4 @@ class HinaBot(cqBot):
     def set_bot_status(self, event: Meta_Event) -> None:
         self.__bot_qq = event.data["self_id"]
         self.hqapi.bot_qq = event.data["self_id"]
+

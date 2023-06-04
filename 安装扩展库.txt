@@ -1,1 +1,2 @@
 pip install pycqBot -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+https://markdown.lovejade.cn/?utm_source=markdown.lovejade.cn
